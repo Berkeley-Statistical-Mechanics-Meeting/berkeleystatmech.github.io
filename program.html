@@ -20,9 +20,17 @@
         h1 {
             text-align: center;
             color: #003262;
+            /* font-size: 2rem;
+            margin-bottom: 0.5rem;
+            border-bottom: 3px solid #FDB515;
+            padding-bottom: 0.5rem; */
         }
+        
         h2 {
             color: #003262;
+            font-size: 1.5rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
             border-bottom: 2px solid #003262;
             padding-bottom: 5px;
             margin-top: 30px;
@@ -36,22 +44,54 @@
             padding: 10px;
             background-color: #f5f5f5;
         }
-        .talk {
-            margin: 15px 0;
+        
+        .event {
+            margin-bottom: 1.5rem;
         }
+        
         .time {
-            font-weight: bold;
+            font-weight: 600;
             color: #003262;
         }
+        
         .location {
             color: #666;
             font-style: italic;
         }
+        
         .speaker {
-            font-weight: bold;
+            font-weight: 500;
+            margin-top: 0.3rem;
         }
+        
+        .affiliation {
+            color: #666;
+        }
+        
         .title {
             font-style: italic;
+            margin-top: 0.2rem;
+            color: #555;
+        }
+        
+        .subtitle {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .chandler-lecture {
+            background-color: #f8f8f8;
+            padding: 1rem;
+            border-left: 4px solid #FDB515;
+            margin: 1rem 0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+            background-color: #f5f5f5;
+            color: #666;
         }
 
         #btn-back-to-top {
@@ -60,6 +100,7 @@
             right: 20px;
             display: none;
         }
+
     </style>
 </head>
 <body>
@@ -88,191 +129,328 @@
       <!-- <button class="btn btn-light ms-auto" type="button"><a target="_blank" href="https://na.eventscloud.com/818822">Register</a></button> -->
     </div>
   </nav>
-
-    <main>
-    <h1>The 2025 Berkeley Statistical Mechanics Meeting</h1>
-    <p style="text-align: center"><strong>January 10 -- 12, 2025</strong></p>
-
-    <h2>Friday, January 10, 2025</h2>
-    <div class="session">
-        <p><span class="time">2:00 pm</span> - Registration & Check-In<br>
-        <span class="location">Tan Hall Lobby</span></p>
+    
+  <main>
+    <div class="container">
+        <h1>The 2026 Berkeley Statistical Mechanics Meeting</h1>
+        <p style="font-size: 1.2rem; font-weight: 500; color: #003262; margin-bottom: 2rem;">January 8 -- 11, 2026</p>
         
-        <p><span class="time">4:00 pm</span> - Poster Session I - Two-minute Talks<br>
-        <span class="location">120 Latimer Hall</span><br>
-        David Limmer Presiding</p>
+        <h2>Thursday, January 8, 2026</h2>
         
-        <p><span class="time">5:00 pm</span> - Poster Session I - Discussions & Light Reception<br>
-        <span class="location">Tan Hall Lobby</span></p>
-    </div>
-
-    <h2>Saturday, January 11, 2025</h2>
-    <div class="session">
-        <p><span class="time">7:45 am</span> - Breakfast<br>
-        <span class="location">Tan Hall Lobby</span></p>
+        <div class="event">
+            <div class="time">2:00 pm</div>
+            <div class="subtitle">Registration & Check-In</div>
+            <div class="location">Tan Hall Lobby</div>
+        </div>
         
-        <p><span class="time">8:45 am</span> - Introductory Remarks<br>
-        <span class="location">120 Latimer Hall</span><br>
-        David Limmer</p>
+        <div class="event">
+            <div class="time">4:00 pm</div>
+            <div class="subtitle">Welcome and CECAM-US-WEST Kickoff</div>
+            <div class="location">120 Latimer Hall</div>
+            <div>David Limmer, Director presiding</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">4:10 pm</div>
+            <div class="subtitle">Welcome to UC Berkeley, Katherine Yelick, Vice Chancellor for Research</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">4:15 pm</div>
+            <div class="subtitle">Partnership with Berkeley Lab</div>
+            <div>Jeffrey Neaton, Associate Lab Director, LBNL</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">4:30 pm</div>
+            <div class="subtitle">Poster Session I - Two-minute Talks</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">5:30 pm</div>
+            <div class="subtitle">Poster Session Ia - Discussions & Light Reception</div>
+            <div class="location">Tan Hall Lobby</div>
+        </div>
+        
+        <h2>Friday, January 9, 2026</h2>
+        
+        <div class="event">
+            <div class="time">7:45 am</div>
+            <div class="subtitle">Breakfast</div>
+            <div class="location">Tan Hall Lobby</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">8:45 am</div>
+            <div class="subtitle">Introductory Remarks</div>
+            <div class="location">120 Latimer Hall</div>
+            <div>David Limmer</div>
+        </div>
+        
+        <h3>Friday Lecture Session I -- Discussion chair: Will Jacobs</h3>
+        <div class="location" style="margin-bottom: 1rem;">120 Latimer Hall</div>
+        
+        <div class="event">
+            <div class="time">9:00 am</div>
+            <div class="speaker">Nikta Fakhri, <span class="affiliation">MIT</span></div>
+            <div class="title">"Nonreciprocal living matter"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">9:30 am</div>
+            <div class="speaker">Ignacio Pagonabarraga, <span class="affiliation">University of Barcelona</span></div>
+            <div class="title">"Shaping active matter: Symmetry, confinement, and effective interactions"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">10:00 am</div>
+            <div class="speaker">John Toner, <span class="affiliation">University of Oregon</span></div>
+            <div class="title">"Only the ambidextrous can flock: Hydrodynamic theory of chiral two dimensional flocks"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">10:30 am</div>
+            <div class="subtitle">Coffee Break</div>
+            <div class="location">Tan Hall Lobby</div>
+        </div>
+        
+        <h3>Friday Lecture Session II -- Discussion chair: Ahmad Omar</h3>
+        <div class="location" style="margin-bottom: 1rem;">120 Latimer Hall</div>
+        
+        <div class="event">
+            <div class="time">11:00 am</div>
+            <div class="speaker">Sho Takatori, <span class="affiliation">Stanford University</span></div>
+            <div class="title">"Many-body hydrodynamic interactions in complex fluids"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">11:30 am</div>
+            <div class="speaker">Julien Tailleur, <span class="affiliation">MIT</span></div>
+            <div class="title">"The active Young-Dupré Equation"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">12:00 pm</div>
+            <div class="subtitle">Lunch</div>
+            <div class="location">775 Tan Hall</div>
+        </div>
+        
+        <h3>Friday Lecture Session III -- Discussion chair: Shirley Ahn</h3>
+        <div class="location" style="margin-bottom: 1rem;">120 Latimer Hall</div>
+        
+        <div class="event">
+            <div class="time">2:00 pm</div>
+            <div class="speaker">Cecilia Clementi, <span class="affiliation">Freie Universität Berlin</span></div>
+            <div class="title">"Modelling Protein Dynamics with Machine Learning and Molecular Simulation"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">2:30 pm</div>
+            <div class="speaker">Xuhui Huang, <span class="affiliation">University of Wisconsin</span></div>
+            <div class="title">"Machine Learning Models for Non-Markovian Protein Dynamics"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">3:00 pm</div>
+            <div class="speaker">Glen Hocky, <span class="affiliation">New York University</span></div>
+            <div class="title">"Stitching together batches of biased data for fast and accurate biomolecular kinetics estimates"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">3:30 pm</div>
+            <div class="subtitle">Coffee Break</div>
+            <div class="location">Tan Hall Lobby</div>
+        </div>
+        
+        <h3>Friday Lecture Session IV -- Discussion chair: Attila Szabo</h3>
+        <div class="location" style="margin-bottom: 1rem;">120 Latimer Hall</div>
+        
+        <div class="event">
+            <div class="time">4:00 pm</div>
+            <div class="speaker">Matthieu Wyart, <span class="affiliation">EPFL</span></div>
+            <div class="title">"Creativity in generative AI"</div>
+        </div>
+        
+        <div class="event chandler-lecture">
+            <div class="time">4:30 pm</div>
+            <div class="subtitle">DAVID CHANDLER LECTURE</div>
+            <div class="speaker">Gerhard Hummer, <span class="affiliation">Max Planck Institute of Biophysics</span></div>
+            <div class="title">"Learning from molecular simulations"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">5:15 pm</div>
+            <div class="subtitle">Poster Session Ib -- Discussions & Light Reception</div>
+            <div class="location">Tan Hall Lobby</div>
+        </div>
+        
+        <h2>Saturday, January 10, 2026</h2>
+        
+        <div class="event">
+            <div class="time">8:00 am</div>
+            <div class="subtitle">Breakfast</div>
+            <div class="location">Tan Hall Lobby</div>
+        </div>
+        
+        <h3>Saturday Lecture Session I -- Discussion chair: Grant Rotskoff</h3>
+        <div class="location" style="margin-bottom: 1rem;">120 Latimer Hall</div>
+        
+        <div class="event">
+            <div class="time">9:00 am</div>
+            <div class="speaker">Qian Chen, <span class="affiliation">University of Illinois</span></div>
+            <div class="title">"Atomic-level manufacturing enabled by electron microscopy imaging"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">9:30 am</div>
+            <div class="speaker">Denis Bartolo, <span class="affiliation">Ecole Normale Supérieure de Lyon</span></div>
+            <div class="title">"Micromotor-based Metamachines: Phase coherence and disorder-induced metachronal waves"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">10:00 am</div>
+            <div class="speaker">Aparna Baskaran, <span class="affiliation">Brandeis University</span></div>
+            <div class="title">"Controlling active fluids: from chaotic dynamics to coherent flows and ordered structures"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">10:30 am</div>
+            <div class="subtitle">Coffee Break</div>
+            <div class="location">Tan Hall Lobby</div>
+        </div>
+        
+        <h3>Saturday Lecture Session II -- Discussion chair: Adam Willard</h3>
+        <div class="location" style="margin-bottom: 1rem;">120 Latimer Hall</div>
+        
+        <div class="event">
+            <div class="time">11:00 am</div>
+            <div class="speaker">Zhen-Gang Wang, <span class="affiliation">Caltech University</span></div>
+            <div class="title">"Anomalous Phase Behavior in Polymeric Solutions with Electrostatic Interactions"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">11:30 am</div>
+            <div class="speaker">Timothy Berkelbach, <span class="affiliation">Columbia University</span></div>
+            <div class="title">"Realistic simulations of surface chemistry"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">12:00 pm</div>
+            <div class="subtitle">Lunch</div>
+            <div class="location">775 Tan Hall</div>
+        </div>
+        
+        <h3>Saturday Lecture Session III -- Discussion chair: Christopher Lynn</h3>
+        <div class="location" style="margin-bottom: 1rem;">120 Latimer Hall</div>
+        
+        <div class="event">
+            <div class="time">2:00 pm</div>
+            <div class="speaker">Pieter Rein ten Wolde, <span class="affiliation">AMOLF</span></div>
+            <div class="title">"The utility of information for navigation"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">2:30 pm</div>
+            <div class="speaker">Eleni Katifori, <span class="affiliation">University of Pennsylvania</span></div>
+            <div class="title">"A paradox in strategies of optimal search"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">3:00 pm</div>
+            <div class="speaker">Oskar Hallatschek, <span class="affiliation">University of California, Berkeley</span></div>
+            <div class="title">"Microbial island biogeography"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">3:30 pm</div>
+            <div class="subtitle">Coffee Break</div>
+            <div class="location">Tan Hall Lobby</div>
+        </div>
+        
+        <h3>Saturday Lecture Session IV -- Discussion chair: Bingqing Cheng</h3>
+        <div class="location" style="margin-bottom: 1rem;">120 Latimer Hall</div>
+        
+        <div class="event">
+            <div class="time">4:00 pm</div>
+            <div class="speaker">Sara Bonella, <span class="affiliation">EPFL</span></div>
+            <div class="title">"On the flexibility of constraints in molecular dynamics for the condensed phase"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">4:30 pm</div>
+            <div class="speaker">Pilar Cossio, <span class="affiliation">Flatiron Institute</span></div>
+            <div class="title">"Inferring probability distributions from cryo-EM particles"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">5:10 pm</div>
+            <div class="subtitle">Poster Session II -- Two minute talks</div>
+            <div class="location">120 Latimer Hall</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">6:00 pm</div>
+            <div class="subtitle">Poster Session II -- Discussions & Light Reception</div>
+            <div class="location">Tan Hall Lobby</div>
+        </div>
+        
+        <h2>Sunday, January 11, 2026</h2>
+        
+        <div class="event">
+            <div class="time">7:45 am</div>
+            <div class="subtitle">Breakfast</div>
+            <div class="location">Tan Hall Lobby</div>
+        </div>
+        
+        <h3>Sunday Lecture Session I -- Discussion chair: Rob Jack</h3>
+        <div class="location" style="margin-bottom: 1rem;">120 Latimer Hall</div>
+        
+        <div class="event">
+            <div class="time">9:30 am</div>
+            <div class="speaker">Feliciano Giustino, <span class="affiliation">University of Texas at Austin</span></div>
+            <div class="title">"Polarons and exciton polarons from first principles"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">10:00 am</div>
+            <div class="speaker">Katarzyna Macieszczak, <span class="affiliation">University of Warwick</span></div>
+            <div class="title">"One to many and many to one: relations between average and stochastic dynamics of open quantum systems"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">10:30 am</div>
+            <div class="subtitle">Coffee Break</div>
+            <div class="location">Tan Hall Lobby</div>
+        </div>
+        
+        <h3>Sunday Lecture Session II -- Discussion chair: Gavin Crooks</h3>
+        <div class="location" style="margin-bottom: 1rem;">120 Latimer Hall</div>
+        
+        <div class="event">
+            <div class="time">11:00 am</div>
+            <div class="speaker">Massimiliano Esposito, <span class="affiliation">University of Luxemberg</span></div>
+            <div class="title">"Energy-Transduction Gears in Chemical Reaction Networks"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">11:30 am</div>
+            <div class="speaker">Erwin Frey, <span class="affiliation">University of Munich</span></div>
+            <div class="title">"Interface laws in reaction--diffusion system"</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">12:00 pm</div>
+            <div class="subtitle">Closing Remarks: David Limmer</div>
+        </div>
+        
+        <div class="event">
+            <div class="time">12:15 pm</div>
+            <div class="subtitle">Pizza Party</div>
+            <div class="location">775 Tan Hall</div>
+        </div>
     </div>
 
-    <h3>Saturday Lecture Session I -- Discussion chair: Will Jacobs</h3>
-    <div class="session">
-        <div class="talk">
-            <p><span class="time">9:00 am</span><br>
-            <span class="speaker">Alexandra Zidovska, New York University</span><br>
-            <span class="title">"Transcription-dependent mobility of single genes and genome-wide motions in live human cells"</span></p>
-        </div>
-
-        <div class="talk">
-            <p><span class="time">9:30 am</span><br>
-            <span class="speaker">Andrej Košmrlj, Princeton University</span><br>
-            <span class="title">"Designing the Morphology of Separated Phases in Multicomponent Liquid Mixtures"</span></p>
-        </div>
-
-        <div class="talk">
-            <p><span class="time">10:00 am</span><br>
-            <span class="speaker">Olga Dudko, University of California, San Diego</span><br>
-            <span class="title">"Specificity and universality in neuronal communication"</span></p>
-        </div>
-
-        <p><span class="time">10:30 am</span> - Coffee Break<br>
-        <span class="location">Tan Hall Lobby</span></p>
-    </div>
-
-    <h3>Saturday Lecture Session II -- Discussion chair: Bingqing Cheng</h3>
-    <div class="session">
-        <div class="talk">
-            <p><span class="time">10:45 am</span><br>
-            <span class="speaker">Chris Mundy, Pacific Northwest National Laboratory</span><br>
-            <span class="title">"Beyond the Debye-Huckel Limit: Towards a General Theoretical Framework for Concentrated Electrolytes"</span></p>
-        </div>
-
-        <div class="talk">
-            <p><span class="time">11:15 am</span><br>
-            <span class="speaker">Tom Markland, Stanford University</span><br>
-            <span class="title">"Finding the "needle" in the trillion molecule haystack: from NMR spectra to molecular structure with artificial intelligence"</span></p>
-        </div>
-
-        <div class="talk">
-            <p><span class="time">11:45 am</span><br>
-            <span class="speaker">Rick Remsing, Rutgers University</span><br>
-            <span class="title">"Defects at Solid-Liquid Interfaces"</span></p>
-        </div>
-
-        <p><span class="time">12:15 pm</span> - Lunch<br>
-        <span class="location">775 Tan Hall</span></p>
-    </div>
-
-    <h3>Saturday Lecture Session III -- Discussion chair: Mike Hagan</h3>
-    <div class="session">
-        <div class="talk">
-            <p><span class="time">2:00 pm</span><br>
-            <span class="speaker">Arvind Murugan, University of Chicago</span><br>
-            <span class="title">"Neural computation through physically learned phase diagrams"</span></p>
-        </div>
-
-        <div class="talk">
-            <p><span class="time">2:30 pm</span><br>
-            <span class="speaker">David Wolpert, Santa Fe Institute</span><br>
-            <span class="title">"How constraints affect evolution of entropy - strengthen second laws"</span></p>
-        </div>
-
-        <div class="talk">
-            <p><span class="time">3:00 pm</span><br>
-            <span class="speaker">Armita Nourmohammad, University of Washington</span><br>
-            <span class="title">"Information exchange in the immune-pathogen interactions"</span></p>
-        </div>
-
-        <p><span class="time">3:30 pm</span> - Coffee Break<br>
-        <span class="location">Tan Hall Lobby</span></p>
-    </div>
-
-    <h3>Saturday Lecture Session IV -- Discussion chair: Kranthi Mandadapu</h3>
-    <div class="session">
-        <div class="talk">
-            <p><span class="time">3:45 pm</span><br>
-            <span class="speaker">Stefano Martiniani, New York University</span><br>
-            <span class="title">"Absorbing State Dynamics of Stochastic Gradient Descent"</span></p>
-        </div>
-
-        <div class="talk">
-            <p><span class="time">4:15 pm</span><br>
-            <span class="speaker">DAVID CHANDLER LECTURE</span><br>
-            <span class="speaker">Howard Stone, Princeton University</span><br>
-            <span class="title">"Active Matter, Biological Condensates, and Transcriptional Responses to Flow: A Fluid Mechanics Perspective"</span></p>
-        </div>
-
-        <p><span class="time">5:10 pm</span> - Poster Session II -- Two minute talks<br>
-        <span class="location">120 Latimer Hall</span></p>
-
-        <p><span class="time">6:00 pm</span> - Poster Session II -- Discussions & Light Reception<br>
-        <span class="location">Tan Hall Lobby</span></p>
-    </div>
-
-    <h2>Sunday, January 12, 2025</h2>
-    <div class="session">
-        <p><span class="time">7:45 am</span> - Breakfast<br>
-        <span class="location">Tan Hall Lobby</span></p>
-    </div>
-
-    <h3>Sunday Lecture Session I -- Discussion chair: Ahmad Omar</h3>
-    <div class="session">
-        <div class="talk">
-            <p><span class="time">9:00 am</span><br>
-            <span class="speaker">Ramin Golestanian, University of Oxford</span><br>
-            <span class="title">"Recent developments in non-reciprocal active matter"</span></p>
-        </div>
-
-        <div class="talk">
-            <p><span class="time">9:30 am</span><br>
-            <span class="speaker">John Bechhoefer, Simon Fraser University</span><br>
-            <span class="title">"Identifying Information Engines"</span></p>
-        </div>
-
-        <div class="talk">
-            <p><span class="time">10:00 am</span><br>
-            <span class="speaker">John Brady, Caltech</span><br>
-            <span class="title">"The role of hydrodynamic interactions on phase separation in active matter systems"</span></p>
-        </div>
-
-        <p><span class="time">10:30 am</span> - Coffee Break<br>
-        <span class="location">Tan Hall Lobby</span></p>
-    </div>
-
-    <h3>Sunday Lecture Session II -- Discussion chair: Joel Eaves</h3>
-    <div class="session">
-        <div class="talk">
-            <p><span class="time">10:45 am</span><br>
-            <span class="speaker">Nicole Yunger Halpern, National Institute of Standards and Technology</span><br>
-            <span class="title">"Non-Abelian Transport Distinguishes Three Usually Equivalent Notions of Entropy Production"</span></p>
-        </div>
-
-        <div class="talk">
-            <p><span class="time">11:15 am</span><br>
-            <span class="speaker">Taka Tanimura, Kyoto University</span><br>
-            <span class="title">"Nonequilibrium quantum thermodynamics described as intensive and extensive variables"</span></p>
-        </div>
-
-        <div class="talk">
-            <p><span class="time">11:45 am</span><br>
-            <span class="speaker">Juan Garrahan, University of Nottingham</span><br>
-            <span class="title">"Making rare events typical in quantum circuits"</span></p>
-        </div>
-
-        <p><span class="time">12:15 pm</span> - Closing Remarks: David Limmer</p>
-
-        <p><span class="time">12:15 pm</span> - Pizza Party<br>
-        <span class="location">775 Tan Hall</span></p>
-    </div>
-  <div class="container">
-    <p><strong>For questions or more information, please contact us <a href="mailto:caitlindabatos@berkeley.edu">HERE.</a></strong></p>
-    <p>© All rights reserved by the Limmer Group.</p>
-    <p></p>
-  </div>
-
-        <!-- <div id="back-to-top"><a target="_blank" href="#"><i class="fa fa-long-arrow-up"></i></a></div> -->
-        <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+    <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
             <!-- <i class="fas fa-arrow-up"></i> -->
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up"
                 viewBox="0 0 16 16">
@@ -280,12 +458,14 @@
                     d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5" />
             </svg>
         </button>
-
-
-</main>
-  <script src="scripts.js"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <footer>
+        <p><strong>For questions or more information, please contact us <a href="mailto:caitlindabatos@berkeley.edu">HERE.</a></strong></p>
+        <p>© All rights reserved by the Limmer Group.</p>
+    </footer>
+    </main>
+<script src="scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
 </html>
