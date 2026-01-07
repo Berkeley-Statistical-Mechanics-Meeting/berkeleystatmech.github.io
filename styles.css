@@ -30,11 +30,11 @@ h1 {
 h2 {
     color: #003262;
     /* font-size: 1.5rem; */
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     margin-bottom: 1rem;
-    border-bottom: 2px solid #003262;
+    /* border-bottom: 2px solid #003262; */
     padding-bottom: 5px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 h3 {
     color: #333;
